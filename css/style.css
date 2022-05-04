@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F4F4;
+}
+
+.presentacion {
+    min-height: 70vh;
+    min-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.presentacion__texto, .presentacion__img {
+    width: 50%;
+}
+
+
+.presentacion__texto h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 270px; height: 120px;
+    line-height: 35px;
+}
+
+.presentacion__texto p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 270px; height: 120px;
+}
+
+.presentacion__img{
+    object-fit: contain;
+}
+
+
+.servicios {
+    background-color: #2D2741;
+    width: 100%; height: 70vh;
+    position: relative;
+}
+
+.servicios div {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.servicios p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #F4F4F4;
+    font-size: 20px;    
+    width: 400px; height: 200px;
+    text-align: center;
+}
+
+.boton01{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+
+
+.trabajos{
+    width: 100%; height: 90vh;
+    background-color: #F4F4F4;
+    position: relative;
+    display: flex;
+}
+
+.trabajos h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 380px; height: 120px;
+    line-height: 35px;
+    position: absolute;
+    top: 8%;
+    left: 20%;
+}
+
+.trabajos__img{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+
+.boton02{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #E635E4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+
+.contacto {
+    width: 100%; height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2741;
+}
+
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #F4F4F4;
+    width: 400px; height: 120px;
+    line-height: 35px;
+    text-align: center; 
+}
+
+.contacto a{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    text-align: center; 
+    margin-top: 60px;
+}
+
+footer{
+    width: 100%; height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+footer .logofooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logofooter img{
+    width: 50%; height: 50%;
+    object-fit: contain;
+    margin-left: 70px;
+}
+
+footer .iconosrrss{
+    display: flex;
+    width: 20%; height: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .iconosrrss img{
+    display: flex;
+    width: 80%; height: 80%;
+    object-fit: contain;
+}
+
+
+.titulopf{
+    width: 100%; height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.titulopf h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 600px; height: 100px;
+    line-height: 35px;
+    text-align: center;    
+}
+
+.pregyresp{
+    width: 100%; height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #F4F4F4;
+    flex-wrap: wrap;
+}
+
+.pregyresp div{
+    width: 40%; height: 30vh;
+}
+
+.pregyresp h4{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px; height: 30px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.pregyresp p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 400px; height: 30px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.consultaspf{
+    width: 100%; height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #2D2741;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.consultaspf h4{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #F4F4F4;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%; height: 30px;
+    text-align: center;
+}
+
+.consultaspf h4 span{
+    color: #E635E4;
+    text-decoration: underline;
+}
